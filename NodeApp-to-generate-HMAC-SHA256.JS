@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const ZOOM_WEBHOOK_SECRET = 'abcdefghijklmnop'; // Replace with your Zoom webhook secret
+const ZOOM_WEBHOOK_SECRET = 'yVHF9MHvnWBV14a44WrWQ3W3RYGdEhcI'; // Replace with your Zoom webhook secret
 
 app.use(express.json());
 
